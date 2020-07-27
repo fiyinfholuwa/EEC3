@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10;
+    
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar {
+    background-image: linear-gradient( to right,#483d8b, #191970 );
+    padding: 0 !important;
+}
+
+.logo {
+    
+    padding-top: 0 auto;
+     padding-left: 10px;
+}
+h1 {
+    font-size: 18px;
+    color: navy;
+}
+
+.home-icons {
+    font-size: 15px;
+}
+  .link-service a {
+    text-align: center !important;
+    text-decoration: none;
+    color: #191970;
+    border: 2px solid #191970;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 15px;
+    padding-top: -30px;
+    margin-top: 20px;
+    
+    
+    font-size: 15px;
+}
+
+.link-service a:hover {
+    color: grey;
+}
+
+.link-about-us a {
+    text-align: center !important;
+    text-decoration: none;
+    color: #191970;
+    border: 2px solid #191970;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 15px;
+    padding-top: -30px;
+    margin-top: 20px;
+}
+
+.link-about-us a:hover {
+    color: grey;
+}
+.icon-home {
+    height: 80px;
+    width: 60px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+h4 {
+    font-size: 16x;
+    color: navy;
+}
+#company-brand {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.intro {
+    text-align:
+}
+.navbar-nav li {
+    padding: 0 10px;
+    background-color:white;
+}
+.navbar-nav li a {
+    color: navy!important;
+    font-weight: 300;
+    float: right;
+    text-align: left;
+    font-size: 13px;
+}
+.navbar-toggler {
+    outline: none;
+}
+
+#home-page-picture {
+    height: 250px;
+    width: 90%;
+    padding-top: 10px;
+    padding-left: -30px;
+    margin-left: 5%;
+
+}
+#main-home-page {
+    text-align: center;
+    font-size: 15px;
+    color: darkblue;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+ul {
+    list-style-type: square;
+    font-weight: 300;
+    padding-left: 4%;
+    }
+
+#about {
+    font-size: 18px;
+    text-align: left;
+}
+h2 {
+    text-align: center;
+    color: navy;
+    padding-top: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+#about-us {
+    color: navy;
+}#service {
+    color: navy;
+    font-size: 15px;
+    margin-left: 5%;
+    text-transform: uppercase;
+}
+.page-wrapper {
+    position: relative;
+}
+.page-wrapper .next { 
+ position: absolute;
+ top: 50%;
+ right: 30px;
+ font-size: 15px;
+ color: navy;
+}
+
+.page-wrapper .prev {
+    position: absolute;
+top: 50%;
+    left: 30px;
+    font-size: 15px;
+ color: navy;
+   }
+   
+.page-wrapper .picture-wrapper {
+
+    width: 84%;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+}
+.page-wrapper .picture-wrapper .picture-post {
+    background-color: white;
+    display: inline-block;
+    margin: opx 10px;
+    height: 330px;
+    width: 300px;
+}
+
+.page-wrapper .picture-wrapper .picture-post .slider-image {
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 1rem 1rem 2rem -1rem grey;
+    padding: 10px;
+}
+.page-wrapper .picture-wrapper .picture-post .slider-image .post-info {
+    text-align: center;
+}
+.post-title {
+    margin-left: 10px;
+    background-color:navy;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius: 5px;
+    padding: 3px;
+    font-size: 10px;
+}
+.pointer {
+    color: navy;
+    padding-left: 10px;
+}
+ .services{
+
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+}
+.col-md-6 img {
+    height: 80%;
+    width: 60%;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.contact {
+    border-left: 3px solid white;
+    padding-left: 5px;
+}
+
+#find{
+    color: navy;
+    padding-top: 30px;
+}
+#services {
+    color: navy;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+hr {
+    color: navy;
+    width: 80%;
+}
+
+.social-icon img {
+    width: 30px;
+    transition: 0.5s;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+
+.footer-icon img {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px ;
+    
+}
+.address-describe, .phone-num, .details {
+    color: white;
+    font-size: 12px;
+    padding-top: 30px;
+}
+.locate-us {
+    width: 300px;
+    height: 300px;
+    border: 1px solid navy;
+    margin-bottom: 30px;
+}
+#locate-us {
+    padding-top: 270px;
+    color: navy;
+}
+#address {
+    background-color: navy;
+    color: white;
+}
+.social-icon a:hover img {
+    transform: translateY(-20px);
+}
+.footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 3, 0.5);
+    height: 300px;
+}
